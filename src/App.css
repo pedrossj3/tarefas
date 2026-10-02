@@ -41,3 +41,12 @@ header {
   width: 100%;
   cursor: pointer;
 }
+
+.conteudo-principal {
+  width: 100vw;
+}
+
+.tarefas {
+  background-color: var(--cor-secundaria);
+  height: 100%;
+}

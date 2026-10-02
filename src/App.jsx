@@ -1,5 +1,6 @@
 import "./App.css";
 import Sidebar from "./componentes/Sidebar";
+import Tarefas from "./componentes/Tarefas";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <div className="container-do-conteudo">
         <Sidebar />
         <section className="conteudo-principal">
-          <h1>Tarefas</h1>
+          <Tarefas></Tarefas>
         </section>
       </div>
     </div>
